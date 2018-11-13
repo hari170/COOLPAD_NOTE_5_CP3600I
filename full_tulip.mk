@@ -19,11 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from tulip device
-$(call inherit-product, device/zte/tulip/device.mk)
+$(call inherit-product, device/yulong/CP3600i/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := tulip
-PRODUCT_NAME := full_tulip
-PRODUCT_BRAND := ZTE
-PRODUCT_MODEL := ZTE B2017G
-PRODUCT_MANUFACTURER := ZTE
+PRODUCT_DEVICE := CP3600i
+PRODUCT_NAME := full_CP3600i
+PRODUCT_BRAND := yulong
+PRODUCT_MODEL := CP3600i
+PRODUCT_MANUFACTURER := yulong
