@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=tulip
-VENDOR=zte
+DEVICE=CP3600i
+VENDOR=yulong
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
