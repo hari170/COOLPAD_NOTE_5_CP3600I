@@ -15,7 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),tulip)
+ifeq ($(TARGET_DEVICE),CP3600I)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
