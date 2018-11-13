@@ -1,7 +1,7 @@
 [
   {
-    "repository": "android_kernel_zte_msm8952",
-    "target_path": "kernel/zte/msm8952"
+    "repository": "android_kernel_yulong_msm8952",
+    "target_path": "kernel/yulong/msm8952"
   },
   {
     "repository": "android_device_qcom_common",
