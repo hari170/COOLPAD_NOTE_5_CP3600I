@@ -18,7 +18,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES := wcnss_zte_client.c
+LOCAL_SRC_FILES := wcnss_yulong_client.c
 
 LOCAL_C_INCLUDES += $(call project-path-for,wlan)/wcnss_service
 LOCAL_CFLAGS += -Wall
