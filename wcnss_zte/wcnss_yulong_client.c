@@ -16,7 +16,7 @@
 
 //#define LOG_NDEBUG 0
 
-#define LOG_TAG "wcnss_zte"
+#define LOG_TAG "wcnss_yulong"
 
 #include <sys/stat.h>
 #include <sys/types.h>
