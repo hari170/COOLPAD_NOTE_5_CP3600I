@@ -16,8 +16,8 @@
 
 set -e
 
-DEVICE=tulip
-VENDOR=zte
+DEVICE=CP3600i
+VENDOR=yulong
 
 INITIAL_COPYRIGHT_YEAR=2017
 
