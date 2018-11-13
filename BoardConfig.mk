@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-BOARD_VENDOR := zte
+BOARD_VENDOR := yulong
 
-LOCAL_PATH := device/zte/tulip
+LOCAL_PATH := device/yulong/CP3600I
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -56,8 +56,8 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 #ENABLE_SCHEDBOOST := true
 TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/zte/msm8952
-TARGET_KERNEL_CONFIG := lineage_tulip_defconfig
+TARGET_KERNEL_SOURCE := kernel/yulong/msm8952
+TARGET_KERNEL_CONFIG := lineage_CP3600I_defconfig
 #TARGET_USES_UNCOMPRESSED_KERNEL := true
 
 # Audio
@@ -139,7 +139,7 @@ TW_INCLUDE_CRYPTO := true
 endif
 
 # Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_tulip
+TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_CP3600I
 TARGET_RELEASETOOLS_EXTENSIONS := $(LOCAL_PATH)
 
 # RIL
@@ -166,7 +166,7 @@ WIFI_DRIVER_FW_PATH_STA     := "sta"
 WIFI_DRIVER_MODULE_PATH     := "/system/lib/modules/wlan.ko"
 WIFI_DRIVER_MODULE_NAME     := "wlan"
 
-TARGET_OTA_ASSERT_DEVICE := tulip
+TARGET_OTA_ASSERT_DEVICE := CP3600I
 
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
@@ -176,4 +176,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4294967296
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 25429515776
 
 # inherit from the proprietary version
--include vendor/zte/tulip/BoardConfigVendor.mk
+-include vendor/yulong/CP3600I/BoardConfigVendor.mk
