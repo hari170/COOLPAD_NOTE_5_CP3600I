@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := yulong
 
-LOCAL_PATH := device/yulong/CP3600I
+LOCAL_PATH := device/yulong/cp3600I
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -176,4 +176,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4294967296
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 25429515776
 
 # inherit from the proprietary version
--include vendor/yulong/CP3600I/BoardConfigVendor.mk
+-include vendor/yulong/cp3600I/BoardConfigVendor.mk
