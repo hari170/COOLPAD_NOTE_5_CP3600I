@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-BOARD_VENDOR := yulong
+BOARD_VENDOR := coolpad
 
-LOCAL_PATH := device/yulong/cp3600I
+LOCAL_PATH := device/coolpad/cp3600I
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -166,7 +166,7 @@ WIFI_DRIVER_FW_PATH_STA     := "sta"
 WIFI_DRIVER_MODULE_PATH     := "/system/lib/modules/wlan.ko"
 WIFI_DRIVER_MODULE_NAME     := "wlan"
 
-TARGET_OTA_ASSERT_DEVICE := CP3600I
+TARGET_OTA_ASSERT_DEVICE := cp3600I
 
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
@@ -176,4 +176,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4294967296
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 25429515776
 
 # inherit from the proprietary version
--include vendor/yulong/cp3600I/BoardConfigVendor.mk
+-include vendor/coolpad/cp3600I/BoardConfigVendor.mk
