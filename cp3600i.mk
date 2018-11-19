@@ -22,8 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/yulong/CP3600i/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := CP3600i
-PRODUCT_NAME := full_CP3600i
-PRODUCT_BRAND := yulong
-PRODUCT_MODEL := CP3600i
-PRODUCT_MANUFACTURER := yulong
+PRODUCT_DEVICE := cp3600i
+PRODUCT_NAME := cp3600i
+PRODUCT_BRAND := coolpad
+PRODUCT_MODEL := cp3600i
+PRODUCT_MANUFACTURER := coolpad
