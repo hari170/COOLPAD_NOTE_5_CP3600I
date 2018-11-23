@@ -15,7 +15,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/coolpad/CP3600i/CP3600i-vendor.mk)
+$(call inherit-product-if-exists, vendor/yulong/CP3600I/CP3600I-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
