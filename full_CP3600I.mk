@@ -19,11 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from tulip device
-$(call inherit-product, device/yulong/CP3600i/device.mk)
+$(call inherit-product, device/yulong/CP3600I/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := CP3600i
-PRODUCT_NAME := CP3600i
+PRODUCT_DEVICE := CP3600I
+PRODUCT_NAME := CP3600I
 PRODUCT_BRAND := coolpad
-PRODUCT_MODEL := CP3600i
+PRODUCT_MODEL := CP3600I
 PRODUCT_MANUFACTURER := yulong
