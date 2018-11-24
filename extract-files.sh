@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=cp3600i
-VENDOR=coolpad
+DEVICE=CP3600I
+VENDOR=yulong
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
