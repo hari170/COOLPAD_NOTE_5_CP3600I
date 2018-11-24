@@ -1,1 +1,1 @@
-add_lunch_combo aokp-userdebug
+add_lunch_combo aokp_CP3600I-userdebug
