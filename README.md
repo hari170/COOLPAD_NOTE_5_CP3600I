@@ -17,6 +17,6 @@ Dimensions | 152 x 75.7 x 8.9 mm (5.98 x 2.98 x 0.35 in)
 Display | 1080 x 1920 pixels, 5.2" AMOLED
 Rear Camera  | 13.0 MP, dual-LED flash
 Front Camera | 8.0 MP
-Release Date | September 2016
+Release Date | 20-October-2016
 
 ![COOLPAD NOTE 5](https://cdn2.gsmarena.com/vv/pics/coolpad/coolpad-note-5-1.jpg)
