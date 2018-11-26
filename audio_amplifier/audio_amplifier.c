@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "tulip-tfa98xx"
+#define LOG_TAG "CP3600I-tfa98xx"
 
 #include <stdio.h>
 #include <stdlib.h>
